@@ -1,0 +1,73 @@
+/* Body part */
+
+body {
+    font-size: 15px;
+    line-height: 1.6;
+    width: 100%;
+    max-width: 75rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    min-height: 200vh;
+    color: #333;
+    text-align: center;
+    background-image: url(../images/car.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* container */
+
+.container {
+    width: 100%;
+    max-width: 75rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1rem);
+    min-height: 200vh;
+}
+
+
+/* List part */
+
+.list {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+span {
+    font-size: 22px;
+}
+
+
+/* colors */
+
+.list__item-color1 {
+    color: antiquewhite;
+}
+
+.list__item-color2 {
+    color: blue;
+}
+
+.list__item-color3 {
+    color: red;
+}
+
+.list__item-color4 {
+    color: greenyellow;
+}
